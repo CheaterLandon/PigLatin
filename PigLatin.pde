@@ -46,7 +46,7 @@ public String pigLatin(String sWord)
 	else if (findFirstVowel(sWord) == 0){
 		return sWord + "way";
 		}
-	else if (s.Word.substring (0, 2).equals("qu")){
+	else if (sWord.substring (0, 2).equals("qu")){
    		 String rotated = sWord.substring(0, 2);
   		 String rest = sWord.substring(2, sWord.length());
    		 String ans = rest + rotated;
